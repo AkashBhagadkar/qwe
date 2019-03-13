@@ -26,12 +26,16 @@ public class CalcTest {
       public void testCalc1() {
         assertEquals("Result - Fail", 9, 9);
       }
-	@Test	
- 	public void testCal() {
-     	Calcmul testcalmul =new Calcmul();
-	Calculator testcaladd=new Calculator();
-	assertEquals(testcalmul.mul(),18);
-	assertEquals(testcalmul.add(),9);
+	
+  public void testSlowerr() {
+        System.out.println("slowerrr");
       }
+  public void testSlowerrr() {
+        System.out.println("slowerrrr");
+      }
+  public void testSlowerrrrr() {
+        System.out.println("slowerrrrr");
+      }
+
 	
     }
